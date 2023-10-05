@@ -11556,6 +11556,105 @@ p {
   }
 }
 
+
+.vasaripaint{
+  margin-right:40px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 60rem;
+  height: 40rem;
+  background-image: url('../assets/img/vasaripaintdefault.svg');
+  filter: saturate(120%);
+}
+
+
+@media (max-width: 576px) {
+  .intro .vasaripaint {
+    width: 75%;
+    height:20rem;
+    margin-left: 4rem;
+  }
+  .intro .intro-text {
+    width: 100%;
+  }
+  .intro .intro-text .intro-button {
+    width: 80%;
+    position: absolute;
+
+  }
+}
+
+@media (min-width: 577px) and (max-width: 799px) {
+  .intro .vasaripaint {
+    width: 75%;
+    height: 20rem;
+    margin-left: 5rem;
+  }
+  .intro .intro-text {
+    width: 100%;
+  }
+  .intro .intro-text .intro-button {
+    width: 100%;
+    position: absolute;
+
+  }
+}
+
+@media (min-width: 800px) and (max-width: 991px) {
+  .intro .vasaripaint {
+    width: 80%;
+    margin-left: 8rem;
+    height: 25rem;
+  }
+  .intro .intro-text {
+    width: 100%;
+    margin-top:-3rem;
+  }
+  .intro .intro-text .intro-button {
+    width: 100%;
+    position: absolute;
+
+
+  }
+}
+
+@media (min-width: 992px) and (max-width:1199px){
+  .intro .vasaripaint {
+    width: 50%;
+    float: right;
+    margin-top: -2rem;
+  }
+  .intro .intro-text {
+    left: 0;
+    width: 50%;
+    position: absolute;
+  }
+  .intro .intro-text .intro-button {
+    width: 100%;
+    left: 0;
+    position: absolute;
+  }
+}
+
+@media (min-width: 1200px) {
+  .intro .vasaripaint {
+    width: 60%;
+    float: right;
+    margin-top: -3rem;
+  }
+  .intro .intro-text {
+    left: 0;
+    width: 50%;
+    position: absolute;
+  }
+  .intro .intro-text .intro-button {
+    width: 100%;
+    left: 0;
+    position: absolute;
+  }
+}
+
+
 .btns-grid-container {
   display: grid;
   position: fixed;
