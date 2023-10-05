@@ -95,7 +95,7 @@
   font-family: 'SquareFont';
   src: url('../assets/fonts/Square.ttf') format('truetype');
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body, * {
   cursor: url('../assets/img/cursfut.png'), auto;
