@@ -12017,7 +12017,6 @@ p {
   width: 60rem;
   height: 40rem;
   background-image: url('../assets/img/vasaripaintrenaissance.svg');
-  padding: 0;
   filter: saturate(120%);
 }
 
