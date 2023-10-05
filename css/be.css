@@ -11336,7 +11336,8 @@ p {
 
 .verrocchio {
   position:relative;
-    background-image: url('/assets/img/be/verrocchiobe.svg');
+  
+    background-image: url('../assets/img/be/verrocchiobe.svg');
     background-repeat: no-repeat;
     z-index: 100000;    
   }
