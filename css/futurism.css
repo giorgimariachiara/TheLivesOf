@@ -93,9 +93,13 @@
 
 @font-face {
   font-family: 'SquareFont';
-  src: url('../assets/fonts/Squareo.ttf') format('truetype');
+  src: url('../assets/fonts/Square.ttf') format('truetype');
 }
 
+
+body, * {
+  cursor: url('../assets/img/cursfut.png'), auto;
+}
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -3624,7 +3628,7 @@ textarea.form-control-lg {
 .nav-link.disabled {
   color: var(--bs-nav-link-disabled-color);
   pointer-events: none;
-  cursor: default;
+  cursor: url('../assets/img/cursfut.png'), auto;
 }
 
 .nav-tabs {
@@ -4353,12 +4357,13 @@ textarea.form-control-lg {
 
 input[type="checkbox"] {
  
-  cursor: pointer;
+  cursor: url('../assets/img/cursfut.png'), auto;
 }
 label {
   font-size: 1.3rem;
   color: #f7e6ba;
   font-family: "SquareFont";
+  
 }
 
 
@@ -4497,6 +4502,7 @@ color:black;
   text-transform: uppercase;
   color:black;
   font-size: 1rem;
+  
 }
 
 
@@ -10963,6 +10969,10 @@ body .section-heading .section-heading-lower {
   font-weight: 700;
 }
 
+body .intro .section-heading-upper{
+  font-weight: 700;
+}
+
 .section-heading .section-heading-upper{
   display: inline-block;  
   transform: rotate(10deg);
@@ -10970,6 +10980,7 @@ body .section-heading .section-heading-lower {
   margin-left:10px; 
   font-family: "Roboto";
   margin-bottom: 3.75rem; 
+ 
 }
 
 .section-heading-lower {
@@ -10977,14 +10988,14 @@ body .section-heading .section-heading-lower {
   letter-spacing: 5px; 
   font-size: 2.2rem;
   color:#ffda39;
-  font-weight: 800;
+  
 }
 
 .section-heading .section-heading-upper,
 .intro-text .section-heading-upper,
 .section-heading .section-heading-lower, .intro-text .section-heading-lower, .section-heading .section-heading-lower span {
   mix-blend-mode: difference;
-  color: white; /* Questo diventerà il colore opposto dello sfondo quando si sovrappone */
+  color: white; 
 }
 
 .intro-text .section-heading-lower {
@@ -11297,6 +11308,7 @@ body .section-heading .section-heading-lower {
 #mainNav {
   background-color: rgba(247,230,186, 0.8);
   font-family: "SquareFont";
+  font-weight: 800;
 }
 
 #mainNav .navbar-brand {
@@ -12159,7 +12171,7 @@ figcaption{
   border: 0.2rem solid #8bc276;  
   background-color: rgba(247,230,186);  
   color: #fff;
-  cursor: pointer;
+  cursor: url('../assets/img/cursfut.png'), auto;
   padding: 2rem;
   display: flex;
   align-items: center;
@@ -12225,6 +12237,7 @@ figcaption{
 
 .sub-btn {
   position: relative; 
+  cursor: url('../assets/img/cursfut.png'), auto;
 }
 
 .btn-hover-text {
@@ -12244,6 +12257,7 @@ figcaption{
 
 .sub-btn:hover .btn-hover-text {
   display: inline-block;  
+  cursor: url('../assets/img/cursfut.png'), auto;
 }
 
 .letteraT {
@@ -12517,4 +12531,19 @@ background-image: url('/assets/img/cursorefuturismo.svg');
   80% { transform: translate(-1px, 1px) rotate(0deg); }
   90% { transform: translate(1px, -1px) rotate(1deg); }
   100% { transform: translate(1px, 1px) rotate(0deg); }
+}
+
+
+/*modifica icona pinterest*/
+a .fab.fa-pinterest {
+  color: black;  
+  font-size: 3rem; 
+}
+
+div > * {
+  cursor: url('../assets/img/cursfut.png'), auto;
+}
+
+div > *:hover {
+  cursor: url('../assets/img/cursfut.png'), auto;
 }
