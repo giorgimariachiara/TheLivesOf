@@ -12162,3 +12162,17 @@ font-weight: bold !important;
 }
 
 }
+
+@media (min-width:992px){
+  .section-heading-upper.docu{
+    margin-left:4rem!important;
+    font-size: 1.5!important;
+    margin-top: 10rem !important;
+  }
+  .section-heading-lower.docu{
+    margin-left:5rem!important;
+    font-size: 2rem!important;
+    margin-top: 0.5rem !important;;
+
+}
+}
