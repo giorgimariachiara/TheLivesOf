@@ -96,6 +96,10 @@
   src: url('../assets/fonts/Tangerine-Regular.ttf') format('truetype');
 }
 
+body, * {
+  cursor: url('../assets/img/Renaissance/quill-pen.png'), auto;
+}
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -2797,7 +2801,7 @@ textarea.form-control-lg {
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
-  cursor: pointer;
+  cursor:  url('../assets/img/Renaissance/quill-pen.png'), auto;
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
@@ -3649,7 +3653,7 @@ textarea.form-control-lg {
 .nav-link.disabled {
   color: var(--bs-nav-link-disabled-color);
   pointer-events: none;
-  cursor: default;
+  cursor:  url('../assets/img/Renaissance/quill-pen.png'), auto;
 }
 
 .nav-tabs {
@@ -11436,12 +11440,13 @@ box-shadow:
   border: none;
   background-color: #dfd9c8;  
   color: #a3852d;
-  cursor: pointer;
+  cursor:  url('../assets/img/Renaissance/quill-pen.png'), auto;
   border: 0.1875rem solid var(--bs-gold);
 }
 
 .sub-btn:hover, #stylesBtn:hover, #toTopBtn:hover {
   background-color: rgba(213, 206, 189, 0.9);
+  cursor: url('../assets/img/Renaissance/quill-pen.png'), auto;
 }
 
 .sub-btn[data-theme] {
@@ -11494,6 +11499,7 @@ box-shadow:
 
 .sub-btn {
   position: relative;  
+  
 }
 
 .btn-hover-text {
@@ -12219,7 +12225,7 @@ filter: sepia(0.6);
   color: #fff;
   border: none;
   margin-top: 1rem;
-  cursor: pointer;
+  cursor:  url('../assets/img/Renaissance/quill-pen.png'), auto;
 }
 
 #occurrences-count{

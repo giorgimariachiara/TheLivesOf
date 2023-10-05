@@ -96,6 +96,10 @@
   src: url('../assets/fonts/Square.ttf') format('truetype');
 }
 
+
+body, * {
+  cursor: url('../assets/img/cursfut.png'), auto;
+}
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -3624,7 +3628,7 @@ textarea.form-control-lg {
 .nav-link.disabled {
   color: var(--bs-nav-link-disabled-color);
   pointer-events: none;
-  cursor: default;
+  cursor: url('../assets/img/cursfut.png'), auto;
 }
 
 .nav-tabs {
@@ -4353,7 +4357,7 @@ textarea.form-control-lg {
 
 input[type="checkbox"] {
  
-  cursor: pointer;
+  cursor: url('../assets/img/cursfut.png'), auto;
 }
 label {
   font-size: 1.3rem;
@@ -12167,7 +12171,7 @@ figcaption{
   border: 0.2rem solid #8bc276;  
   background-color: rgba(247,230,186);  
   color: #fff;
-  cursor: pointer;
+  cursor: url('../assets/img/cursfut.png'), auto;
   padding: 2rem;
   display: flex;
   align-items: center;
@@ -12233,6 +12237,7 @@ figcaption{
 
 .sub-btn {
   position: relative; 
+  cursor: url('../assets/img/cursfut.png'), auto;
 }
 
 .btn-hover-text {
@@ -12252,6 +12257,7 @@ figcaption{
 
 .sub-btn:hover .btn-hover-text {
   display: inline-block;  
+  cursor: url('../assets/img/cursfut.png'), auto;
 }
 
 .letteraT {
@@ -12532,4 +12538,12 @@ background-image: url('/assets/img/cursorefuturismo.svg');
 a .fab.fa-pinterest {
   color: black;  
   font-size: 3rem; 
+}
+
+div > * {
+  cursor: url('../assets/img/cursfut.png'), auto;
+}
+
+div > *:hover {
+  cursor: url('../assets/img/cursfut.png'), auto;
 }
