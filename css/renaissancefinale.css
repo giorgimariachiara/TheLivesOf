@@ -12248,3 +12248,8 @@ filter: sepia(0.6);
   color:#92302b;
 }
 
+/*modifica icona pinterest*/
+a .fab.fa-pinterest {
+  color: var(--bs-gold);  
+  font-size: 3rem; 
+}
