@@ -96,10 +96,6 @@
   src: url('../assets/fonts/Tangerine-Regular.ttf') format('truetype');
 }
 
-body, .navbar:hover, .navbar a:hover, .navbar li.nav-item span:hover, .accordion, .accordion-body, .accordion-button {
-  cursor: url('../assets/img/cursorerinascimento.svg') 0 0, auto;
-}
-
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -11068,7 +11064,8 @@ top: 100%;
 }
 
 .intro .mb-3{margin-top:4rem;
-  margin-left:3rem;
+  margin-left:5rem;
+  font-family: "Tangerine";
   color:#92302b;
 }
 
@@ -12168,7 +12165,7 @@ height: 800px;
 filter: sepia(0.6);
 }
 .custom-marker {
-  background: url('../assets/img/quill.png') center center no-repeat;
+  background: url('../assets/img/Renaissance/compass.png') center center no-repeat;
   background-size: 100%;
 }
 
@@ -12245,5 +12242,9 @@ filter: sepia(0.6);
 .searchBar #search-input {
   width: 80%;
   box-sizing: border-box;
+}
+
+.leaflet-popup-content a {
+  color:#92302b;
 }
 

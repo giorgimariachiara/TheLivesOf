@@ -93,7 +93,7 @@
 
 @font-face {
   font-family: 'SquareFont';
-  src: url('./assets/fonts/Square.ttf') format('truetype');
+  src: url('../assets/fonts/Squareo.ttf') format('truetype');
 }
 
 body {
@@ -8091,7 +8091,7 @@ color:black;
 /* rtl:end:remove */
 .site-heading-lower {
   --bs-text-opacity: 1;
-  color: #eb5a3d;
+  color: #da3035;
 }
 
 .text-secondary {
@@ -11074,7 +11074,7 @@ body .section-heading .section-heading-lower {
     left: 0;
     width: 90%; 
     height: 100%;
-    background: linear-gradient(120deg, #f07a00,#f07a00 35%, #85c06c 15%, #85c06c 60%, #ffd333 40%, #ffd333 75%, #673d86 75%);
+    background: linear-gradient(120deg, #f07a00,#f07a00 35%, #85c06c 15%, #85c06c 60%, #DA3035 40%, #DA3035 75%, #673d86 75%);
     clip-path:polygon(100% 0, 100% 71%, 53% 39%, 60% 66%, 30% 46%, 26% 69%, 11% 55%, 0% 70%, 0% 35%, 0 0);
     z-index: -1; /* Assicurati che sia dietro al testo */
 }
@@ -12047,7 +12047,9 @@ figcaption{
   width: 40rem;  
   height: 48rem; 
   transform: rotate(10deg);
-  background-image: url('../assets/img/vasaripaintfuturism.svg');
+  background-image: url('../assets/img/vasaripaintdefault.svg');
+  filter: grayscale(80%);
+
 }
 
 .vasaripaint:hover {
