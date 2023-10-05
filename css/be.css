@@ -127,9 +127,9 @@ body {
     margin: 0;
     font-family: "Copperplate";
     font-size: 1rem;
-    background-image: url('/assets/img/be/bebg.svg')!important;
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
+    background-image: url('/assets/img/be/bebg.png')!important;
+    background-repeat:repeat !important;
+    background-size: contain !important;
   }
 
 hr {
