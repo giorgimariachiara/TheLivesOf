@@ -81,16 +81,16 @@
  */
  @font-face {
   font-family: 'Silkscreen-Bold';
-  src: url('/assets/fonts/Silkscreen-Bold.ttf') format('truetype');
+  src: url('../assets/fonts/Silkscreen-Bold.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Silkscreen-Regular';
-  src: url('/assets/fonts/Silkscreen-Regular.ttf') format('truetype');
+  src: url('../assets/fonts/Silkscreen-Regular.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Bauhaus';
-  src: url('/assets/fonts/Bauhaus_.ttf') format('truetype');
+  src: url('../assets/fonts/Bauhaus_.ttf') format('truetype');
 }
 
 
@@ -10869,7 +10869,7 @@ textarea.form-control-lg {
   }
 }
 body {
-  background-image: url("/assets/img/pm/pmbg.png");
+  background-image: url("../assets/img/pm/pmbg.png");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -11472,7 +11472,7 @@ p {
 }
 
 .vasaripaint {
-  background-image: url('/assets/img/pm/vasaripaintpm.jpg');
+  background-image: url('../assets/img/pm/vasaripaintpm.jpg');
 }
 .intro-text{
      transform: perspective(1000px) rotateX(45deg);
@@ -11880,7 +11880,7 @@ p {
 filter: saturate(90);
 }
 .custom-marker {
-background-image: url('/assets/img/markerpm.png');
+background-image: url('../assets/img/markerpm.png');
  background-repeat: no-repeat;
  background-position-x: center;
  background-position-y: center;
