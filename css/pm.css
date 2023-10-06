@@ -2815,7 +2815,7 @@ textarea.form-control-lg {
           user-select: none;
   border: var(--bs-btn-border-width) solid var(--bs-btn-border-color);
   border-radius: var(--bs-btn-border-radius);
-  background-color: #AF4751!important;
+  background-color:#FFFF00!important;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -11009,7 +11009,7 @@ p {
 }
 
 .footer {
-  background-color: rgba(47, 23, 15, 0.9);
+  background-color: #FF0033;
 }
 
 
@@ -11487,7 +11487,6 @@ p {
 }
 .intro-text{
      transform: perspective(1000px) rotateX(45deg);
-
 }
 
 
