@@ -12241,7 +12241,7 @@ filter: sepia(0.6);
 /*search bar*/
 .highlight {
   background-color: #3f5b31!important;
-  font-weight: bold !important;
+  color: var(--bs-gold)
 }
 
 #prev-button,
