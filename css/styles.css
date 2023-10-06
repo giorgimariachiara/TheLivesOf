@@ -11159,13 +11159,6 @@ p {
   background-repeat: no-repeat;
 }
 
-.sub-btn[data-theme="theme3"] {
-  background-image: url('../assets/img/heptagon.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 .sub-btn[data-theme="theme1"] {
   background-image: url('../assets/img/vitruvian-man.png');
   background-size: cover;
@@ -11173,15 +11166,33 @@ p {
   background-repeat: no-repeat;
 }
 
-.sub-btn[data-theme="theme6"] {
-  background-image: url('../assets/img/brain.png');
-  background-size: cover;
+.sub-btn[data-theme="theme2"] {
+  background-image: url('../assets/img/buttonbe.png');
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
 
+.sub-btn[data-theme="theme3"] {
+  background-image: url('../assets/img/heptagon.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.sub-btn[data-theme="theme4"] {
+  background-image: url('../assets/img/buttonpm.png');
+  background-size:contain;
+  background-position:left;
+  background-repeat: no-repeat;
+}
 .sub-btn[data-theme="theme5"] {
   background-image: url('../assets/img/late90.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.sub-btn[data-theme="theme6"] {
+  background-image: url('../assets/img/brain.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
