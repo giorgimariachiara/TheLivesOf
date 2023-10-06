@@ -11948,12 +11948,10 @@ cursor: pointer;
 
 /* Stile per gli elementi evidenziati */
 .highlight {
-background-color: yellow !important;
+background-color: black !important;
 font-weight: bold !important;
-
+color: yellow!important;
+clip-path: polygon(0% 0%, 100% 10%, 90% 100%, 0% 90%);
 }
 
 
-body, .navbar:hover, .navbar a:hover, .navbar li.nav-item span:hover, .accordion, .accordion-body, .accordion-button {
-  cursor: url('../assets/img/pm/razzo.png'), auto;
-}
