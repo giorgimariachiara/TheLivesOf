@@ -13,40 +13,18 @@ window.addEventListener('DOMContentLoaded', event => {
 */
 /**/
 
-// Utility to load stylesheet asynchronously
-function loadStylesheetAsync(href, id) {
-    return new Promise((resolve, reject) => {
-        const existingLinkElement = document.getElementById(id);
-        if (existingLinkElement) {
-            document.head.removeChild(existingLinkElement);
-        }
-
-        const link = document.createElement('link');
-        link.id = id; // Assign an id to find it later for removal
-        link.rel = 'stylesheet';
-        link.href = href;
-        link.onload = () => resolve();
-        link.onerror = () => reject(new Error('Stylesheet failed to load'));
-        document.head.appendChild(link);
-    });
-}
-
-// Function to load saved stylesheet
-async function loadSavedStylesheet() {
+// Function to load saved stylesheet from localStorage
+function loadSavedStylesheet() {
     const savedStylesheet = localStorage.getItem('currentStylesheet');
     if (savedStylesheet) {
-        try {
-            await loadStylesheetAsync(savedStylesheet, 'themeStylesheet'); // 'themeStylesheet' is the id
-            toggleEffectsBasedOnStylesheet(savedStylesheet);
-        } catch (error) {
-            console.error('Failed to load stylesheet:', error);
-        }
+        changeStylesheet(savedStylesheet);
+        toggleEffectsBasedOnStylesheet(savedStylesheet);
     }
 }
 
-$(document).ready(async function() {
+$(document).ready(function() {
     // Load saved stylesheet
-    await loadSavedStylesheet();
+    loadSavedStylesheet();
 
   function appendToMetadataList(className, listId, titleId) {
       var elements = $(className);
@@ -177,6 +155,7 @@ function changeStylesheet(newStylesheet) {
   // Save the stylesheet to localStorage
   localStorage.setItem('currentStylesheet', newStylesheet);
 }
+
 
 function initializeThemeButtons() {
     const themeMapping = {
@@ -334,5 +313,6 @@ const siteHeadingUpper = document.querySelector(".site-heading-upper");
                     wrapAlternateLettersInSpans(navLink);
                 });
             });
+
 
 
