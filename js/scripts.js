@@ -12,6 +12,25 @@ window.addEventListener('DOMContentLoaded', event => {
 })
 */
 /**/
+function setCookie(name, value, days) {
+    const date = new Date();
+    date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+    const expires = `expires=${date.toUTCString()}`;
+    document.cookie = `${name}=${value};${expires};path=/`;
+}
+
+function getCookie(name) {
+    const cookieName = `${name}=`;
+    const decodedCookie = decodeURIComponent(document.cookie);
+    const cookies = decodedCookie.split(';');
+    for (let i = 0; i < cookies.length; i++) {
+        let cookie = cookies[i].trim();
+        if (cookie.indexOf(cookieName) === 0) {
+            return cookie.substring(cookieName.length, cookie.length);
+        }
+    }
+    return '';
+}
 
 // Utility to load stylesheet asynchronously
 function loadStylesheetAsync(href, id) {
@@ -30,10 +49,9 @@ function loadStylesheetAsync(href, id) {
         document.head.appendChild(link);
     });
 }
-
 // Function to load saved stylesheet
 async function loadSavedStylesheet() {
-    const savedStylesheet = localStorage.getItem('currentStylesheet');
+    const savedStylesheet = getCookie('currentStylesheet');
     if (savedStylesheet) {
         try {
             await loadStylesheetAsync(savedStylesheet, 'themeStylesheet'); // 'themeStylesheet' is the id
@@ -42,6 +60,39 @@ async function loadSavedStylesheet() {
             console.error('Failed to load stylesheet:', error);
         }
     }
+}
+
+
+function changeStylesheet(newStylesheet) {
+    // Modify to use new method
+    loadStylesheetAsync(newStylesheet, 'themeStylesheet')
+        .then(() => {
+            // Save the stylesheet using cookie
+            setCookie('currentStylesheet', newStylesheet, 365); // Save for 365 days
+            toggleEffectsBasedOnStylesheet(newStylesheet);
+        })
+        .catch((error) => {
+            console.error('Failed to load stylesheet:', error);
+        });
+}
+
+function initializeThemeButtons() {
+    const themeMapping = {
+        'theme1': 'css/renaissancefinale.css',
+        'theme2': 'css/be.css',
+        'theme3': 'css/futurism.css',
+        'theme4': 'css/pm.css',
+        'theme5': 'css/XX.css',
+        'theme6': 'css/2030.css'
+    };
+
+    Object.keys(themeMapping).forEach(theme => {
+        document.querySelector(`.sub-btn[data-theme="${theme}"]`).addEventListener('click', function() {
+            const newStylesheet = themeMapping[theme];
+            changeStylesheet(newStylesheet);
+            toggleEffectsBasedOnStylesheet(newStylesheet);
+        });
+    });
 }
 
 $(document).ready(async function() {
@@ -169,33 +220,6 @@ $('#next-button').on('click', function() {
     }
 });
 /**/
-
-
-
-function changeStylesheet(newStylesheet) {
-  document.getElementById('themeStylesheet').href = newStylesheet;
-  // Save the stylesheet to localStorage
-  localStorage.setItem('currentStylesheet', newStylesheet);
-}
-
-function initializeThemeButtons() {
-    const themeMapping = {
-        'theme1': 'css/renaissancefinale.css',
-        'theme2': 'css/be.css',
-        'theme3': 'css/futurism.css',
-        'theme4': 'css/pm.css',
-        'theme5': 'css/XX.css',
-        'theme6': 'css/2030.css'
-    };
-
-    Object.keys(themeMapping).forEach(theme => {
-        document.querySelector(`.sub-btn[data-theme="${theme}"]`).addEventListener('click', function() {
-            const newStylesheet = themeMapping[theme];
-            changeStylesheet(newStylesheet);
-            toggleEffectsBasedOnStylesheet(newStylesheet);
-        });
-    });
-}
 
 document.getElementById('stylesBtn').addEventListener('click', function() {
     const themeButtons = document.querySelectorAll('.sub-btn[data-theme]');
