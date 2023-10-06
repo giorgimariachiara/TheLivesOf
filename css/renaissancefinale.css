@@ -11652,6 +11652,36 @@ margin-top: 0.8rem;
   margin-left: 2rem; 
 }
 
+@media (max-width: 576px) {
+  .palette{
+      margin-right: 2rem;
+      margin-left: 1rem;
+      margin-top: 2.5rem;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 700px) {
+  .palette{
+      margin-right: 0.5rem;
+      margin-left: 0.7rem;
+      margin-top: 2.5rem;
+  }
+}
+@media (min-width: 701px) and (max-width: 992px) {
+  .palette {
+      margin-right: 1.5rem;
+      margin-left: 1.7rem;
+      margin-top: 2.5rem;
+  }
+}
+@media (min-width: 993px) {
+  .palette {
+    margin-left: 2.2rem; 
+    margin-top: 2.5rem;
+    margin-right:3rem;
+  }
+}
+
  @media (max-width: 576px) {
   .bg-faded p {
       margin-right: 2rem;
@@ -12259,17 +12289,18 @@ a .fab.fa-pinterest {
   font-family: 'Tangerine', serif;
   text-align: justify;
   font-size: 1.5rem; 
-  line-height: 1;
+  line-height: 1.5;
   color:#6a604e;
   margin-right: 4rem; 
+  list-style: none;
  
 }
 
-.product-item-description ul li {
+.product-item-description li {
   font-family: 'Tangerine', serif;
   text-align: justify;
   font-size: 1.5rem; 
-  line-height: 1;
+  line-height: 1.5;
   color:#6a604e;
   margin-right: 4rem; 
   
