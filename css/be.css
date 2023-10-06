@@ -11899,34 +11899,34 @@ p {
 }
 
 
-
 .highlight-place {
-    background-color: #6caedf;
+  background-color: #E49462;
 }
 .highlight-person {
-    background-color: #a1d490;
+  background-color: #AEC9C4;
 }
 .btns-grid-container {
-  display: grid;
-  position: fixed;
-  right: 10px;  /* Adjust as per requirement */
-  bottom: 10px;  /* Adjust as per requirement */
-  grid-template-rows: repeat(8, auto);  /* 8 rows for 8 grid items */
-  gap: 5px;  /* Spacing between buttons */
-  z-index: 9999;  /* This will ensure it's on top of most other elements */
+display: grid;
+position: fixed;
+right: 10px;  
+bottom: 10px;  
+grid-template-rows: repeat(8, auto);  
+gap: 5px;  
+z-index: 9999; 
 }
 .sub-btn, #stylesBtn, #toTopBtn {
-  width: 50px;  /* Adjust width as required */
-  height: 50px;  /* Adjust height as required */
-  border: none;
-  border-radius: 50%;  /* To make them round */
-  background-color: rgba(47, 23, 15, 0.9);  /* Adjust color as required */
-  color: #fff;
-  cursor: pointer;
+width: 50px;  
+height: 50px;  
+border: none;
+border-radius: 50%;  
+background-color: #243F39;
+color: #fff;
+cursor: pointer;
 }
 .sub-btn:hover, #stylesBtn:hover, #toTopBtn:hover {
-  background-color: #555;  /* Adjust hover color as required */
+background-color: #E49462;  
 }
+
 
 .sub-btn[data-theme] {
   display: none;
@@ -12126,14 +12126,9 @@ cursor: pointer;
 }
 /* Stile per gli elementi evidenziati */
 .highlight {
-background-color: yellow !important;
+  background-color:#DBB2AB;
 font-weight: bold !important;
-}
-
-
-
-.magcov img {
-  width: 10%;
+text-decoration:wavy !important;
 }
 
 
