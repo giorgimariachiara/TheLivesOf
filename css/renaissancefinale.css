@@ -11499,7 +11499,6 @@ box-shadow:
 
 .sub-btn {
   position: relative;  
-  
 }
 
 .btn-hover-text {
@@ -12253,5 +12252,26 @@ filter: sepia(0.6);
 a .fab.fa-pinterest {
   color: var(--bs-gold);  
   font-size: 3rem; 
+}
+
+
+.product-item-description ul {
+  font-family: 'Tangerine', serif;
+  text-align: justify;
+  font-size: 1.5rem; 
+  line-height: 1;
+  color:#6a604e;
+  margin-right: 4rem; 
+ 
+}
+
+.product-item-description ul li {
+  font-family: 'Tangerine', serif;
+  text-align: justify;
+  font-size: 1.5rem; 
+  line-height: 1;
+  color:#6a604e;
+  margin-right: 4rem; 
+  
 }
 
