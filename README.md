@@ -14,9 +14,9 @@ To test the project locally without deploying it on a web server, please follow 
 
 Open your terminal (on Unix/Linux/MacOS) or Command Prompt (on Windows) and navigate to the folder where you have cloned or downloaded the repository.
 
-For example, if your folder is located in `C:\Github\infomodeling`, you can navigate there by executing:
+For example, if your folder is located in `C:\Github\thelivesof`, you can navigate there by executing:
 ```bash
-cd C:\Github\infomodeling
+cd C:\Github\thelivesof
 ```
 
 #### Step 2: Start a Local HTTP Server
