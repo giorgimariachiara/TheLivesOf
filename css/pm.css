@@ -11265,13 +11265,13 @@ p {
   width: 50px;  
   height: 50px;  
   border: none;
-  border-radius: 50%;  
-  background-color: rgba(47, 23, 15, 0.9);
+
+  background-color: black;
   color: #fff;
   cursor: pointer;
 }
 .sub-btn:hover, #stylesBtn:hover, #toTopBtn:hover {
-  background-color: #555;  
+  background-color:#FFFF00 ;  
 }
 
 .sub-btn[data-theme] {
