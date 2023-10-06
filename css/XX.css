@@ -58,7 +58,7 @@
   --bs-font-sans-serif: sans-serif !important;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-font-family: 'FuturaBook' !important;
+  --bs-body-font-family: 'FuturaBook';
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
@@ -95,28 +95,17 @@
 }
 @font-face {
   font-family: 'Silkscreen-Bold';
-  src: url('/assets/fonts/Silkscreen-Bold.ttf') format('truetype');
+  src: url('../assets/fonts/Silkscreen-Bold.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Silkscreen-Regular';
-  src: url('/assets/fonts/Silkscreen-Regular.ttf') format('truetype');
+  src: url('../assets/fonts/Silkscreen-Regular.ttf') format('truetype');
 }
 @font-face {
   font-family: 'FuturaBook';
-  src: url('/assets/fonts/futura-book-font.ttf') format('truetype');
+  src: url('../assets/fonts/futura-book-font.ttf') format('truetype');
 }
-@font-face {
-  font-family: 'PaperCut';
-  src: url('/assets/fonts/papercut.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'Arcade';
-  src: url('/assets/fonts/ARCADECLASSIC.TTF') format('truetype');
-}
-@font-face {
-  font-family: 'BACK1982';
-  src: url('/assets/fonts/BACKTO1982.TTF') format('truetype');
-}
+
 
 body {
   margin: 0;
