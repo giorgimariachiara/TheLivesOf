@@ -11325,19 +11325,22 @@ p {
   position:relative;
     background-image: url('../assets/img/be/verrocchiobe.svg');
     background-repeat: no-repeat;
-    z-index: 100000;    
+    z-index: 2;
+
   }
   .donatello{
     position:relative;
     background-image: url('../assets/img/be/Donatellobe.svg');
     background-repeat: no-repeat;
-    z-index: 100000;  
+    z-index: 2;
+
+
   }
   .leonardo{
     position:relative;
     background-image: url('../assets/img/be/leonardobe.svg');
     background-repeat: no-repeat;
-    z-index: 100000;
+    z-index: 2;
   }
   
 
@@ -11566,6 +11569,7 @@ p {
 
 }
 
+
 @media (min-width: 500px){
   .product-item .product-item-title {
     position: relative;
@@ -11576,7 +11580,6 @@ p {
   .product-item .product-item-img {
     position: relative;
     z-index: 0;
-    max-width: 60vw;
   }
   .product-item .product-item-description {
     position: relative;
@@ -11598,10 +11601,10 @@ p {
  
   .product-item-title .section-heading-upper{
     font-family: "OTP";
-    writing-mode: vertical-lr; /* Verticale da sinistra a destra */
-    text-orientation: upright; /* Mantiene le lettere dritte */
+    writing-mode: vertical-lr!important; /* Verticale da sinistra a destra */
+    text-orientation: upright!important; /* Mantiene le lettere dritte */
     height: 100%;
-    font-size:1.2rem!important;
+    font-size:1rem!important;
     margin-top: -1.7rem;
     margin-left:5.6rem;      
   }
@@ -11645,7 +11648,6 @@ p {
     z-index: 0;
     margin-left:8rem!important;
     margin-top: 10rem;
-
     width: 80%;
   }
   .product-item-description p{
