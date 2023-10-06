@@ -11854,7 +11854,7 @@ header {
 
 .custom-marker {
   /* Specifica l'immagine SVG personalizzata come sfondo */
-  background-image: url('../assets/img/markerbe.png');
+  background-image: url('../assets/img/xxmarker.png');
   /* Specifica l'ancoraggio dell'icona (opzionale) */
   background-repeat: no-repeat;
   background-position-x: center;

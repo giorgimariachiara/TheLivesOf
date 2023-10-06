@@ -11944,7 +11944,7 @@ header {
 
 .custom-marker {
   /* Specify the custom SVG image as background */
-  background-image: url('../assets/img/2030.svg');
+  background-image: url('../assets/img/2030marker.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain; /* Adjust the image size to fit the container */
