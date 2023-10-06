@@ -3248,7 +3248,7 @@ textarea.form-control-lg {
   --bs-dropdown-link-hover-color: var(--bs-gold);
   --bs-dropdown-link-hover-bg: rgba(213, 206, 189, 0.9);
   --bs-dropdown-link-active-color:  rgba(213, 206, 189, 0.9);
-  --bs-dropdown-link-active-bg: #e6a756;
+  --bs-dropdown-link-active-bg:var(--bs-gold);
   --bs-dropdown-link-disabled-color: #adb5bd;
   --bs-dropdown-item-padding-x: 1rem;
   --bs-dropdown-item-padding-y: 0.25rem;
@@ -12241,6 +12241,7 @@ filter: sepia(0.6);
 /*search bar*/
 .highlight {
   background-color: #3f5b31!important;
+
   color: var(--bs-gold)
 }
 
