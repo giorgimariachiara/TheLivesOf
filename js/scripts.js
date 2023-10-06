@@ -148,6 +148,7 @@ function changeStylesheet(newStylesheet) {
   localStorage.setItem('currentStylesheet', newStylesheet);
 }
 
+
 function initializeThemeButtons() {
     const themeMapping = {
         'theme1': 'css/renaissancefinale.css',

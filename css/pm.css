@@ -11247,10 +11247,10 @@ p {
   z-index: 1000;  
 }
 .highlight-place {
-    background-color: #6caedf;
+    background-color: #02B1BA;
 }
 .highlight-person {
-    background-color: #a1d490;
+    background-color: #FFFF00;
 }
 .btns-grid-container {
   display: grid;
@@ -11950,7 +11950,7 @@ cursor: pointer;
 background-color: black !important;
 font-weight: bold !important;
 color: yellow!important;
-clip-path: polygon(0% 0%, 100% 10%, 90% 100%, 0% 90%);
+clip-path: polygon(0% 0%, 100% 15%, 85% 100%, 0% 85%);
 }
 
 
