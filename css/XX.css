@@ -1,5 +1,16 @@
 @charset "UTF-8";
-
+@font-face {
+  font-family: 'Silkscreen-Bold';
+  src: url('../assets/fonts/Silkscreen-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Silkscreen-Regular';
+  src: url('../assets/fonts/Silkscreen-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'FuturaBook';
+  src: url('../assets/fonts/futura-book-font.ttf') format('truetype');
+}
 /*!
 * Start Bootstrap - Business Casual v7.0.9 (https://startbootstrap.com/theme/business-casual)
 * Copyright 2013-2023 Start Bootstrap
@@ -93,18 +104,7 @@
     scroll-behavior: smooth;
   }
 }
-@font-face {
-  font-family: 'Silkscreen-Bold';
-  src: url('../assets/fonts/Silkscreen-Bold.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'Silkscreen-Regular';
-  src: url('../assets/fonts/Silkscreen-Regular.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'FuturaBook';
-  src: url('../assets/fonts/futura-book-font.ttf') format('truetype');
-}
+
 
 
 body {
