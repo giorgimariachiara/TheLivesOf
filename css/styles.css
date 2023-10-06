@@ -11891,3 +11891,8 @@ cursor: pointer;
 background-color: yellow !important;
 font-weight: bold !important;
 }
+
+/* Stile per nascondere l'intero contenuto */
+.hidden-content {
+  display: none;
+}

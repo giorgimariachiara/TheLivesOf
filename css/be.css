@@ -10949,7 +10949,7 @@ p {
   font-family: 'Copperplate'!important;
   position: sticky;
   top: 0;
-  z-index: 100000000;
+  z-index: 1000;
 
 }
 #mainNav .navbar-brand {
