@@ -81,16 +81,16 @@
  */
  @font-face {
   font-family: 'Silkscreen-Bold';
-  src: url('/assets/fonts/Silkscreen-Bold.ttf') format('truetype');
+  src: url('../assets/fonts/Silkscreen-Bold.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Silkscreen-Regular';
-  src: url('/assets/fonts/Silkscreen-Regular.ttf') format('truetype');
+  src: url('../assets/fonts/Silkscreen-Regular.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Bauhaus';
-  src: url('/assets/fonts/Bauhaus_.ttf') format('truetype');
+  src: url('../assets/fonts/Bauhaus_.ttf') format('truetype');
 }
 
 
@@ -2815,7 +2815,7 @@ textarea.form-control-lg {
           user-select: none;
   border: var(--bs-btn-border-width) solid var(--bs-btn-border-color);
   border-radius: var(--bs-btn-border-radius);
-  background-color: #AF4751!important;
+  background-color:#FFFF00!important;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -10869,7 +10869,7 @@ textarea.form-control-lg {
   }
 }
 body {
-  background-image: url("/assets/img/pm/pmbg.png");
+  background-image: url("../assets/img/pm/pmbg.png");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -11009,7 +11009,7 @@ p {
 }
 
 .footer {
-  background-color: rgba(47, 23, 15, 0.9);
+  background-color: #FF0033;
 }
 
 
@@ -11286,13 +11286,6 @@ p {
   background-repeat: no-repeat;
 }
 
-.sub-btn[data-theme="theme3"] {
-  background-image: url('../assets/img/heptagon.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 .sub-btn[data-theme="theme1"] {
   background-image: url('../assets/img/vitruvian-man.png');
   background-size: cover;
@@ -11300,15 +11293,33 @@ p {
   background-repeat: no-repeat;
 }
 
-.sub-btn[data-theme="theme6"] {
-  background-image: url('../assets/img/brain.png');
-  background-size: cover;
+.sub-btn[data-theme="theme2"] {
+  background-image: url('../assets/img/buttonbe.png');
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
 
+.sub-btn[data-theme="theme3"] {
+  background-image: url('../assets/img/heptagon.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.sub-btn[data-theme="theme4"] {
+  background-image: url('../assets/img/buttonpm.png');
+  background-size:contain;
+  background-position:left;
+  background-repeat: no-repeat;
+}
 .sub-btn[data-theme="theme5"] {
   background-image: url('../assets/img/late90.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.sub-btn[data-theme="theme6"] {
+  background-image: url('../assets/img/brain.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -11472,11 +11483,10 @@ p {
 }
 
 .vasaripaint {
-  background-image: url('/assets/img/pm/vasaripaintpm.jpg');
+  background-image: url('../assets/img/pm/vasaripaint.png');
 }
 .intro-text{
      transform: perspective(1000px) rotateX(45deg);
-
 }
 
 
@@ -11880,7 +11890,7 @@ p {
 filter: saturate(90);
 }
 .custom-marker {
-background-image: url('/assets/img/markerpm.png');
+background-image: url('../assets/img/markerpm.png');
  background-repeat: no-repeat;
  background-position-x: center;
  background-position-y: center;
@@ -11927,7 +11937,7 @@ font-weight: bold;
 /* Stile per i pulsanti di navigazione */
 #prev-button,
 #next-button {
-background-color: #007BFF;
+background-color: #FF0033;
 color: #fff;
 border: none;
 border-radius: 4px;
@@ -11937,11 +11947,10 @@ cursor: pointer;
 
 /* Stile per gli elementi evidenziati */
 .highlight {
-background-color: yellow !important;
+background-color: black !important;
 font-weight: bold !important;
+color: yellow!important;
+clip-path: polygon(0% 0%, 100% 10%, 90% 100%, 0% 90%);
 }
 
 
-body, .navbar:hover, .navbar a:hover, .navbar li.nav-item span:hover, .accordion, .accordion-body, .accordion-button {
-  cursor: url('../assets/img/pm/razzo.png'), auto;
-}
