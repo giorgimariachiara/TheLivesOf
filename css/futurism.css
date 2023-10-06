@@ -11904,7 +11904,7 @@ figcaption{
   }
 
   .general {
-    width: 25rem;
+    width: 20rem;
     height: 15rem;
   }
 
@@ -11979,10 +11979,9 @@ figcaption{
   }
 
   .leonardo {
-    width: 33rem;
+    width: 30rem;
     height: 25rem;  
-    
-    
+   
   }
 }
 
@@ -12548,3 +12547,4 @@ div > * {
 div > *:hover {
   cursor: url('../assets/img/cursfut.png'), auto;
 }
+
