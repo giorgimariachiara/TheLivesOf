@@ -1,5 +1,12 @@
 @charset "UTF-8";
-
+@font-face {
+  font-family: 'Silkscreen-Bold';
+  src: url('../assets/fonts/Silkscreen-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Silkscreen-Regular';
+  src: url('../assets/fonts/Silkscreen-Regular.ttf') format('truetype');
+}
 /*!
 * Start Bootstrap - Business Casual v7.0.9 (https://startbootstrap.com/theme/business-casual)
 * Copyright 2013-2023 Start Bootstrap
@@ -58,7 +65,7 @@
   --bs-font-sans-serif: sans-serif !important;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-font-family: 'FuturaBook' !important;
+  --bs-body-font-family: 'Silkscreen-Regular';
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
@@ -93,30 +100,8 @@
     scroll-behavior: smooth;
   }
 }
-@font-face {
-  font-family: 'Silkscreen-Bold';
-  src: url('/assets/fonts/Silkscreen-Bold.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'Silkscreen-Regular';
-  src: url('/assets/fonts/Silkscreen-Regular.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'FuturaBook';
-  src: url('/assets/fonts/futura-book-font.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'PaperCut';
-  src: url('/assets/fonts/papercut.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'Arcade';
-  src: url('/assets/fonts/ARCADECLASSIC.TTF') format('truetype');
-}
-@font-face {
-  font-family: 'BACK1982';
-  src: url('/assets/fonts/BACKTO1982.TTF') format('truetype');
-}
+
+
 
 body {
   margin: 0;
@@ -2797,7 +2782,7 @@ textarea.form-control-lg {
 .btn {
   --bs-btn-padding-x: 0.75rem;
   --bs-btn-padding-y: 0.375rem;
-  --bs-btn-font-family: ;
+  --bs-btn-font-family: 'Silkscreen-Regular';
   --bs-btn-font-size: 1rem;
   --bs-btn-font-weight: 400;
   --bs-btn-line-height: 1.5;
@@ -10878,19 +10863,19 @@ p {
   margin-bottom: 5rem;
   text-transform: uppercase;
   line-height: 1;
-  font-family: "Arcade" !important;
+  font-family: "Silkscreen-Regular" !important;
 }
 .site-heading .site-heading-upper {
   display: block;
   font-size: 2rem;
   font-weight: 800;
-  font-family: "Arcade" !important;
+  font-family: "Silkscreen-Regular" !important;
 }
 .site-heading .site-heading-lower {
   font-size: 5rem;
   font-weight: 100;
   line-height: 4rem;
-  font-family: "Arcade" !important;
+  font-family: "Silkscreen-Regular" !important;
 }
 
 .page-section {
@@ -10928,7 +10913,7 @@ p {
 
 #mainNav {
   background-color: rgba(47, 23, 15, 0.9);
-  font-family: 'Rockwell' !important;
+  font-family: 'Silkscreen-Regular' !important;
 }
 #mainNav .navbar-brand {
   color: #e6a756;
