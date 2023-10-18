@@ -11068,8 +11068,8 @@ body .intro .section-heading-upper{
 }
 
 .section-heading-lower span {
-  font-family: 'Cinzel'; /* Puoi sostituire con altri font geometrici */
-  letter-spacing: 5px; /* Distanza tra le lettere */
+  font-family: 'Cinzel'; 
+  letter-spacing: 5px; 
   font-size: 2.2rem;
   color:#ffda39;
   font-weight: 800;
@@ -11088,7 +11088,7 @@ body .intro .section-heading-upper{
     height: 100%;
     background: linear-gradient(120deg, #f07a00,#f07a00 35%, #85c06c 15%, #85c06c 60%, #DA3035 40%, #DA3035 75%, #673d86 75%);
     clip-path:polygon(100% 0, 100% 71%, 53% 39%, 60% 66%, 30% 46%, 26% 69%, 11% 55%, 0% 70%, 0% 35%, 0 0);
-    z-index: -1; /* Assicurati che sia dietro al testo */
+    z-index: -1; 
 }
 
 
